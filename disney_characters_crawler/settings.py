@@ -12,7 +12,6 @@ BOT_NAME = 'disney_characters_crawler'
 SPIDER_MODULES = ['disney_characters_crawler.spiders']
 NEWSPIDER_MODULE = 'disney_characters_crawler.spiders'
 
-
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'disney_characters_crawler (+http://www.yourdomain.com)'
 
@@ -86,3 +85,6 @@ ROBOTSTXT_OBEY = True
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+FEED_FORMAT = "csv"
+FEED_URI = "characters_%(time)s.csv"
