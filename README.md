@@ -1,2 +1,2 @@
-# disney-characters-crawler
-Scrapy project to crawl all Disney characters on Disney Fandom Wiki 
+# Disney Fandom Wiki Crawler
+Scrapy project to crawl data from Disney Fandom Wiki
